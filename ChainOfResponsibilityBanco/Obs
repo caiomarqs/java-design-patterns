@@ -1,0 +1,4 @@
+As respostas vem encadiadas pois uma chama a outra se não conseguir tratar a atual, até chamar a nula, mas da pra tratar isso lançando uma exeção de tempo de execução
+
+
+e sabemos também qual o próximo cenário que deve ser validado, caso o anterior não satisfaça a condição.

@@ -1,0 +1,14 @@
+Um estado tem que saber o criterio do outro para poder ter o controla disso
+
+Então uma classe que matem o estado positivo caos o saldo seja maior q zero dever saber quando o saldo fica nagativo para negativar
+
+	public void sacar(Conta conta, double valor) {
+		
+		if (conta.getSaldo() < 0) {
+			conta.setState(new Negativo());
+			return;
+		}
+		
+ Sim, pois a estruturação do projeto em pacotes faz parte também dos desing patterns, mas com o protected ele nos obriga a colocar tudo em um pacote só.
+
+Mas imagino que deveria fazer o encapsulamento dos atributos e definir um pacote para cada conjunto de objetos, um pacote para os Estados, um pacote para os Binarios etc...

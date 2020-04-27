@@ -1,0 +1,12 @@
+ESSE PARAO NÂO TEM UMA CLASSE CHAVE MAS SIM A IMPLEMENTÇÃO DE UMA INTERFACE QUE UNE E DEIXA CADA NÓ IDEPENDENTE
+
+Esse metood se basei na resolução de um arvore de problemas,
+onde cada nó da arvore se resolve passando seu resultado com entrada para o no de cima
+
+		 A
+	B----|----C
+	|		  |
+D---|---E F---|---G
+
+Os nós de baixo vão se resolvendo alimentado os nós de cima
+

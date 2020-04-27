@@ -1,0 +1,8 @@
+Visitor é usado geralmento com o Interpreter pattern, 
+por que o visitor ele vai visitar os nos de um arvore e verificar se o no aceita ele ou n
+assim fazendo algo com o aceite do no.
+
+Diferenca entre o visitor e Interpreter
+O intreper ele intreperta o no e gera um resultado final de todos os nos
+
+O visitor gera algo diferente do intreper a partir do s nos que o aceita(ex : estrutura de dados)

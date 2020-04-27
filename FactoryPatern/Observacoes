@@ -1,0 +1,8 @@
+Factory -> Classe que cria objetos, metodos vão retornar objetos
+
+Diferenca de uma factory para um builder -> Um builder retornar um objeto complexo, que varia em cada instancia, a fectory retornar variados objetos de criação simples
+
+Ambos são padrões de projeto que visam resolver problemas de criação de objetos. O que muda de um pro outro a basicamente a semantica.
+Geralmente usamos um builder quando precisamos passar diversas informações para a lógica que monta o objeto. No caso da Nota Fiscal, passamos nome, itens, etc.
+Usamos uma fábrica quando temos que isolar o processo de criação de um objeto em um único lugar. 
+Essa fábrica pode descobrir como criar o objeto dentro dela própria, mas geralmente ela não precisa de muitas informações para criar o objeto.

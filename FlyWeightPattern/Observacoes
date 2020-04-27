@@ -1,0 +1,21 @@
+Usado para gerenciamento de diversas classe, que mesmo instanciadas possuem as mesmas caracteriscas, assim só precisando ser chamdas um vez, economizando espaco na memoria.
+
+
+
+
+Abstração por enum
+https://cursos.alura.com.br/forum/topico-flyweight-com-enum-28515
+
+
+
+Diferenca de factory e Flyweight -> Seria que a factory tem metodos que rotornam objetos com criação unica, mas podendo ser chamdo varias vezes.
+O Flyweight seria para econimizar memoria para não ficar instanciando varias classe que o seu sistema usa sem modificar nada delas
+
+
+Uma Factory instancia uma classe que é importante/complexa, e seu processo de criação deve ser isolado.
+Um Flyweight serve para quando temos muitas instâncias do mesmo objeto andando pelo sistema, e precisamos economizar. Para tal, o Flyweight faz uso de uma fábrica modificada, que guarda essas instâncias.
+
+
+
+Singleton x Flyweight
+Se paracem, pois tem o intuido de instanciar uma unica vez a classe no sistema, mas o flyweight tem a capacidade de gerenciar instancias de muito mais classes
